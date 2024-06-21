@@ -8,9 +8,7 @@ const Users = () =>{
     console.log({users});
     return(
         <div>
-            <div>
-                <button type="submit" className="login-button">login</button>
-                </div>
+            
                 <div className="images">
             {loading && <h2>loading users...</h2>}
             {errors.length>0 && <h2>{errors}</h2>}
