@@ -1,0 +1,24 @@
+.login-button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border-color: rgb(127, 231, 22);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 0.3%;
+    width: 10%;
+    margin-left: 60%;
+}
+.images{
+    margin-top: 1.14%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+    gap:38px;
+    padding: 8px;
+    width: 85%;
+}
